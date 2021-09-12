@@ -1,0 +1,38 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\graphicspath{ {plots/} }
+\title{Kelly's Criterion}
+\date{2021-09-01}
+\author{Eldad Kronfeld}
+\begin{document}
+	\maketitle
+	\thanks{Thank you, Hagai for the continuing patience and support along the way.}
+	\begin{abstract}
+		This is a paper about the mathematical model proposed by John Kelly at the early 1950s, 
+		however instead of looking at the model from the lenses of games and gambles, each of our gamble is an option we can invest in until the next round of the model, at the beginning I will explain the basic concept behind the model and show simple example for one investments with multiple outcomes at each round, the results will be shown by using Monte Carlo simulation, later on I will expend the module to include multiple investments each with multiple outcomes.
+	\end{abstract}
+	\tableofcontents
+	\newpage
+	
+	\section{Introduction}
+	Kelly's Criterion is an infinite model in discrete time frames, which I will call ticks$\backslash$rounds.
+	at each round we have sum of money that we would like to invest and the model represent what happens each round with the split that we decided on.\newline
+	However, the premise of the model is that the investments or gambles we take each round have expectations that are greater then 1,
+	$$\textbf{E}_{gain} \ge 1$$
+	meaning that in the long run we can expect that we will yield revenue from the venture and not loss from it.
+	\newline
+	\textbf{Note:} through all of the explanations and simulations I will normalize the odds to be such as that we start with 1$\textdollar$ and each gain will be noted as $\gamma\cdot F_{N-1}$, where $F_{N-1}$ denotes the sum of money from round $N-1$ and $\gamma$ denotes the gain and $\gamma\in[0,\infty)$, so when $\gamma = 1$ it means that there is no gain and no loss at all, however when 
+	$\gamma > 1$ we gain money and when $ 0\le \gamma < 1$ we can expect to loss money.
+	\newline\newline
+	if we try to define a simple model, where we have 1 investment with $k$ outcomes, where each outcome have $p_i$ probability of happening and we invest $f$ amount of money and keep $b=1-f$ 
+	\begin{equation}
+		F_N = \Bigg \{
+	(b + f\cdot \gamma _i)F_{N-1} \quad for\enspace i=1,..,k
+	\end{equation}
+	this equation represent that if outcome $i$ happens then the part that we didn't invest in $(1-f)$ doesn't change, however the part that we did invest $f$ changes by $\gamma_i$.
+	\newline
+	ultimately the way I looked at it, which helped me later to define more complicated model would be:\newline
+	\textit{let} $X$ be random variable that represent the gain of each outcome, then if the outcome is $\gamma_i$ then $P(X=\gamma_i) = p_i$, this will help us look at the exponential growth and develop a way to find the optimal fraction $f$ in each round to achieve the optimal returns.
+	
+\end{document}

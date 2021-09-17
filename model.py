@@ -25,7 +25,7 @@ class simulation1():
         index = 1
         for i in range(self.ticks):
             val = self.prob.gen()
-            self.res[index] = self.res[index - 1] + (self.f*self.res[index - 1])*val
+            self.res[index] = (1-self.f)*self.res[index - 1] + (self.f*self.res[index - 1])*val
             index += 1
         return self.res
 
@@ -49,9 +49,9 @@ class probD():
 
 
     def find_best_f(self):
-        func = lambda f: sum([v[0]*v[1]/(1+f*v[1]) for v in self.vec.transpose()])
+        func = lambda f: sum([v[0]*(v[1] -1 )/(1+f*(v[1] -1 )) for v in self.vec.transpose()])
         func_prime = lambda f: sum([-v[0]*v[1]**2/((1+f*v[1])**2) for v in self.vec.transpose()])
-        return op.brentq(func,0.000001,0.99999)
+        return op.brentq(func,0.000001,1)
 
     
 class simMulti1W():
@@ -108,7 +108,6 @@ def target_factory(probabilities):
         return -sum
     return target
 
-
 def optimize_f(probabilities):
     target = target_factory(probabilities)
     const = {'type': 'eq', 'fun': lambda x:  sum(x) - 1}
@@ -121,9 +120,9 @@ def optimize_f(probabilities):
 
 
 def main1():
-    vec = np.array([[0.154,0.50,0.32,0.026],[1.5,0.651,-1,-1.93]])
+    vec = np.array([[0.15,0.50,0.32,0.03],[1.5,1.15,0.87,0.3]])
     d = probD(vec)
-    s = simulation1(100,1,0.078,d)
+    s = simulation1(100,1,1,d)
     s.run()
     res = s.res
 
@@ -133,10 +132,10 @@ def main1():
 
     pp.plot(res,'-*')
     pp.plot(res2,'-*')
-    pp.title("one option with multiple return options")
+    pp.title("one option with multiple outcomes")
     pp.xlabel("tick")
     pp.ylabel("value")
-    pp.legend(["random f","optimized f"])
+    pp.legend(["f = 1","optimized f = {0:.2f}".format(d.find_best_f())])
     pp.grid(True)
     pp.show()
 # main1()
@@ -162,4 +161,4 @@ def main2():
     pp.legend(["random f"])
     pp.grid(True)
     pp.show()
-main2()
+# main2()

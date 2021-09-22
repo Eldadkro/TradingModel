@@ -1,0 +1,277 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{Numpy}{online}{}
+      \name{author}{1}{}{%
+        {{hash=1eec54ef3897798d13dcf37fb9d129eb}{%
+           family={developers},
+           familyi={d\bibinitperiod},
+           given={SciPy},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{1eec54ef3897798d13dcf37fb9d129eb}
+      \strng{fullhash}{1eec54ef3897798d13dcf37fb9d129eb}
+      \strng{bibnamehash}{1eec54ef3897798d13dcf37fb9d129eb}
+      \strng{authorbibnamehash}{1eec54ef3897798d13dcf37fb9d129eb}
+      \strng{authornamehash}{1eec54ef3897798d13dcf37fb9d129eb}
+      \strng{authorfullhash}{1eec54ef3897798d13dcf37fb9d129eb}
+      \field{extraname}{1}
+      \field{sortinit}{d}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Numpy scintific programing package}
+      \verb{urlraw}
+      \verb https://numpy.org/doc/stable/
+      \endverb
+      \verb{url}
+      \verb https://numpy.org/doc/stable/
+      \endverb
+      \keyw{software}
+    \endentry
+    \entry{Scipy-brent}{online}{}
+      \name{author}{1}{}{%
+        {{hash=1eec54ef3897798d13dcf37fb9d129eb}{%
+           family={developers},
+           familyi={d\bibinitperiod},
+           given={SciPy},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{1eec54ef3897798d13dcf37fb9d129eb}
+      \strng{fullhash}{1eec54ef3897798d13dcf37fb9d129eb}
+      \strng{bibnamehash}{1eec54ef3897798d13dcf37fb9d129eb}
+      \strng{authorbibnamehash}{1eec54ef3897798d13dcf37fb9d129eb}
+      \strng{authornamehash}{1eec54ef3897798d13dcf37fb9d129eb}
+      \strng{authorfullhash}{1eec54ef3897798d13dcf37fb9d129eb}
+      \field{extraname}{2}
+      \field{sortinit}{d}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Scipy brent's method document}
+      \verb{urlraw}
+      \verb https://docs.scipy.org/doc/scipy/reference/reference/generated/scipy.optimize.brentq.html#scipy.optimize.brentq
+      \endverb
+      \verb{url}
+      \verb https://docs.scipy.org/doc/scipy/reference/reference/generated/scipy.optimize.brentq.html#scipy.optimize.brentq
+      \endverb
+      \keyw{optimization,brent}
+    \endentry
+    \entry{Scipy}{online}{}
+      \name{author}{1}{}{%
+        {{hash=1eec54ef3897798d13dcf37fb9d129eb}{%
+           family={developers},
+           familyi={d\bibinitperiod},
+           given={SciPy},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{1eec54ef3897798d13dcf37fb9d129eb}
+      \strng{fullhash}{1eec54ef3897798d13dcf37fb9d129eb}
+      \strng{bibnamehash}{1eec54ef3897798d13dcf37fb9d129eb}
+      \strng{authorbibnamehash}{1eec54ef3897798d13dcf37fb9d129eb}
+      \strng{authornamehash}{1eec54ef3897798d13dcf37fb9d129eb}
+      \strng{authorfullhash}{1eec54ef3897798d13dcf37fb9d129eb}
+      \field{extraname}{3}
+      \field{sortinit}{d}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Scipy optimization doc}
+      \verb{urlraw}
+      \verb https://docs.scipy.org/doc/scipy/reference/tutorial/optimize.html
+      \endverb
+      \verb{url}
+      \verb https://docs.scipy.org/doc/scipy/reference/tutorial/optimize.html
+      \endverb
+      \keyw{optimization}
+    \endentry
+    \entry{Feng8388}{article}{}
+      \name{author}{5}{}{%
+        {{hash=70fef9a8ec19ebd51ee44505c3f3bb65}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={Ling},
+           giveni={L\bibinitperiod}}}%
+        {{hash=79bcc5fd2489e0611f0d9aad76129b7a}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Baowen},
+           giveni={B\bibinitperiod}}}%
+        {{hash=7c33d69ecea7b53ec4044d8314a5b91a}{%
+           family={Podobnik},
+           familyi={P\bibinitperiod},
+           given={Boris},
+           giveni={B\bibinitperiod}}}%
+        {{hash=695bebb2c50e61cc78db9f51e2d1ca75}{%
+           family={Preis},
+           familyi={P\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod}}}%
+        {{hash=5f5c56c0c8f34aa567709e10df5afd57}{%
+           family={Stanley},
+           familyi={S\bibinitperiod},
+           given={H.\bibnamedelimi Eugene},
+           giveni={H\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {National Academy of Sciences}%
+      }
+      \strng{namehash}{0c00e30400b408f0693ffb20b1784d76}
+      \strng{fullhash}{68494093937260e33b7144aeaae29d64}
+      \strng{bibnamehash}{0c00e30400b408f0693ffb20b1784d76}
+      \strng{authorbibnamehash}{0c00e30400b408f0693ffb20b1784d76}
+      \strng{authornamehash}{0c00e30400b408f0693ffb20b1784d76}
+      \strng{authorfullhash}{68494093937260e33b7144aeaae29d64}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0027-8424}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{number}{22}
+      \field{title}{Linking agent-based models and stochastic models of financial markets}
+      \field{volume}{109}
+      \field{year}{2012}
+      \field{pages}{8388\bibrangedash 8393}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1073/pnas.1205013109
+      \endverb
+      \verb{eprint}
+      \verb https://www.pnas.org/content/109/22/8388.full.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.pnas.org/content/109/22/8388
+      \endverb
+      \verb{url}
+      \verb https://www.pnas.org/content/109/22/8388
+      \endverb
+    \endentry
+    \entry{SQP}{online}{}
+      \name{author}{1}{}{%
+        {{hash=1b8969ea21b1ab928b992d82a573d33e}{%
+           family={Kraft},
+           familyi={K\bibinitperiod},
+           given={Dieter},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{1b8969ea21b1ab928b992d82a573d33e}
+      \strng{fullhash}{1b8969ea21b1ab928b992d82a573d33e}
+      \strng{bibnamehash}{1b8969ea21b1ab928b992d82a573d33e}
+      \strng{authorbibnamehash}{1b8969ea21b1ab928b992d82a573d33e}
+      \strng{authornamehash}{1b8969ea21b1ab928b992d82a573d33e}
+      \strng{authorfullhash}{1b8969ea21b1ab928b992d82a573d33e}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A software package for sequential quadratic programming}
+      \verb{urlraw}
+      \verb http://degenerateconic.com/wp-content/uploads/2018/03/DFVLR_FB_88_28.pdf
+      \endverb
+      \verb{url}
+      \verb http://degenerateconic.com/wp-content/uploads/2018/03/DFVLR_FB_88_28.pdf
+      \endverb
+    \endentry
+    \entry{matlab}{online}{}
+      \name{author}{1}{}{%
+        {{hash=2d2b0d998977e6379aad61f1b56ac3c1}{%
+           family={MathWorks},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{2d2b0d998977e6379aad61f1b56ac3c1}
+      \strng{fullhash}{2d2b0d998977e6379aad61f1b56ac3c1}
+      \strng{bibnamehash}{2d2b0d998977e6379aad61f1b56ac3c1}
+      \strng{authorbibnamehash}{2d2b0d998977e6379aad61f1b56ac3c1}
+      \strng{authornamehash}{2d2b0d998977e6379aad61f1b56ac3c1}
+      \strng{authorfullhash}{2d2b0d998977e6379aad61f1b56ac3c1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Matlab Constrained Optimization algorithms}
+      \verb{urlraw}
+      \verb https://www.mathworks.com/help/optim/ug/constrained-nonlinear-optimization-algorithms.html#bsgppl4
+      \endverb
+      \verb{url}
+      \verb https://www.mathworks.com/help/optim/ug/constrained-nonlinear-optimization-algorithms.html#bsgppl4
+      \endverb
+      \keyw{software}
+    \endentry
+    \entry{NLP}{book}{}
+      \name{author}{1}{}{%
+        {{hash=dd044a7a4d27c5ab819a5432f0f29d15}{%
+           family={Mokhtar\bibnamedelimb S.\bibnamedelimi Bazarra},
+           familyi={M\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={C.\bibnamedelimi M.\bibnamedelimi Shetty},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim S\bibinitperiod},
+           suffix={Hanif\bibnamedelimb D.\bibnamedelimi Sherali},
+           suffixi={H\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Jhon Wiley \& Sons}%
+      }
+      \strng{namehash}{dd044a7a4d27c5ab819a5432f0f29d15}
+      \strng{fullhash}{dd044a7a4d27c5ab819a5432f0f29d15}
+      \strng{bibnamehash}{dd044a7a4d27c5ab819a5432f0f29d15}
+      \strng{authorbibnamehash}{dd044a7a4d27c5ab819a5432f0f29d15}
+      \strng{authornamehash}{dd044a7a4d27c5ab819a5432f0f29d15}
+      \strng{authorfullhash}{dd044a7a4d27c5ab819a5432f0f29d15}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{chapter}{3}
+      \field{title}{Nonlinear Programming Theory And Algorithms}
+      \field{year}{2006}
+    \endentry
+    \entry{Finance}{book}{}
+      \name{author}{1}{}{%
+        {{hash=138c8d5acb1f0ecf9a61982c1b0880d1}{%
+           family={Shonkwiler},
+           familyi={S\bibinitperiod},
+           given={Ronald\bibnamedelima W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{138c8d5acb1f0ecf9a61982c1b0880d1}
+      \strng{fullhash}{138c8d5acb1f0ecf9a61982c1b0880d1}
+      \strng{bibnamehash}{138c8d5acb1f0ecf9a61982c1b0880d1}
+      \strng{authorbibnamehash}{138c8d5acb1f0ecf9a61982c1b0880d1}
+      \strng{authornamehash}{138c8d5acb1f0ecf9a61982c1b0880d1}
+      \strng{authorfullhash}{138c8d5acb1f0ecf9a61982c1b0880d1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{chapter}{7}
+      \field{isbn}{978-1-4614-8510-0}
+      \field{series}{Springer Undergraduate Texts in Mathematics and Technology}
+      \field{title}{Finance with Monte Carlo}
+      \field{year}{2013}
+      \keyw{Finance}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

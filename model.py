@@ -158,7 +158,31 @@ def main2():
     pp.title("multi independent options, with multiple returns")
     pp.xlabel("tick")
     pp.ylabel("value")
-    pp.legend(["random f"])
+    pp.legend(["random f", "optimal f"])
     pp.grid(True)
     pp.show()
-# main2()
+
+def main3():
+    f = np.array([[0.5,0.2,0.3],[1.15,0.5,1.5]])
+    probs = [probD(f) for i in range(5)]
+    f_max = optimize_f(probs)
+    tt = f_max
+    f_max = f_max['x']
+    f = np.array([0.5,0.5,0,0,0])
+    s = simMulti1W(500,1,f,0,probs)
+    s.run()
+    res = s.res
+    s_max = simMulti1W(500,1,f_max[1:],f_max[0],probs)
+    s_max.run()
+    res_max = s_max.res
+    x = np.linspace(0,500,len(res))
+    pp.plot(x,res,'-*')
+    pp.plot(x,res_max,'-*')
+    pp.title("multi independent options, with multiple returns")
+    pp.xlabel("tick")
+    pp.ylabel("value")
+    pp.legend(["random f", "optimal f"])
+    pp.grid(True)
+    pp.show()
+    return f_max
+main3()

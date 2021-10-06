@@ -165,6 +165,35 @@
       \verb https://www.pnas.org/content/109/22/8388
       \endverb
     \endentry
+    \entry{6771227}{article}{}
+      \name{author}{1}{}{%
+        {{hash=c79415ebd7f822af04353e36002dddcb}{%
+           family={Kelly},
+           familyi={K\bibinitperiod},
+           given={J.\bibnamedelimi L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{c79415ebd7f822af04353e36002dddcb}
+      \strng{fullhash}{c79415ebd7f822af04353e36002dddcb}
+      \strng{bibnamehash}{c79415ebd7f822af04353e36002dddcb}
+      \strng{authorbibnamehash}{c79415ebd7f822af04353e36002dddcb}
+      \strng{authornamehash}{c79415ebd7f822af04353e36002dddcb}
+      \strng{authorfullhash}{c79415ebd7f822af04353e36002dddcb}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Bell System Technical Journal}
+      \field{number}{4}
+      \field{title}{A new interpretation of information rate}
+      \field{volume}{35}
+      \field{year}{1956}
+      \field{pages}{917\bibrangedash 926}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1002/j.1538-7305.1956.tb03809.x
+      \endverb
+    \endentry
     \entry{SQP}{online}{}
       \name{author}{1}{}{%
         {{hash=1b8969ea21b1ab928b992d82a573d33e}{%
@@ -242,6 +271,42 @@
       \field{chapter}{3}
       \field{title}{Nonlinear Programming Theory And Algorithms}
       \field{year}{2006}
+      \field{pages}{99}
+      \range{pages}{1}
+    \endentry
+    \entry{buffet}{book}{}
+      \name{author}{1}{}{%
+        {{hash=0acc977c6034133852555502ef2d78ea}{%
+           family={Pabrai},
+           familyi={P\bibinitperiod},
+           given={Mohnish},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{0acc977c6034133852555502ef2d78ea}
+      \strng{fullhash}{0acc977c6034133852555502ef2d78ea}
+      \strng{bibnamehash}{0acc977c6034133852555502ef2d78ea}
+      \strng{authorbibnamehash}{0acc977c6034133852555502ef2d78ea}
+      \strng{authornamehash}{0acc977c6034133852555502ef2d78ea}
+      \strng{authorfullhash}{0acc977c6034133852555502ef2d78ea}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{6}
+      \field{isbn}{9780470043899}
+      \field{month}{4}
+      \field{title}{The Dhandho Investor}
+      \field{year}{2007}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://archive.org/details/dhandhoinvestorl00pabr_0
+      \endverb
+      \verb{url}
+      \verb https://archive.org/details/dhandhoinvestorl00pabr_0
+      \endverb
     \endentry
     \entry{Finance}{book}{}
       \name{author}{1}{}{%
@@ -270,6 +335,19 @@
       \field{title}{Finance with Monte Carlo}
       \field{year}{2013}
       \keyw{Finance}
+    \endentry
+    \entry{wiki}{online}{}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labeltitlesource}{title}
+      \field{title}{Wikipedia's Kelly's criterion}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Kelly_criterion
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Kelly_criterion
+      \endverb
+      \keyw{kelly}
     \endentry
   \enddatalist
 \endrefsection

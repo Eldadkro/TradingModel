@@ -2344,15 +2344,19 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">./bibli.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">Finance</bcf:citekey>
-    <bcf:citekey order="2">Scipy-brent</bcf:citekey>
-    <bcf:citekey order="3">Numpy</bcf:citekey>
-    <bcf:citekey order="4">NLP</bcf:citekey>
-    <bcf:citekey order="5">SQP</bcf:citekey>
-    <bcf:citekey order="6">Scipy</bcf:citekey>
-    <bcf:citekey order="7">matlab</bcf:citekey>
-    <bcf:citekey order="8">Feng8388</bcf:citekey>
-    <bcf:citekey order="9">Numpy</bcf:citekey>
+    <bcf:citekey order="1">6771227</bcf:citekey>
+    <bcf:citekey order="2">Finance</bcf:citekey>
+    <bcf:citekey order="3">buffet</bcf:citekey>
+    <bcf:citekey order="4">wiki</bcf:citekey>
+    <bcf:citekey order="5">Finance</bcf:citekey>
+    <bcf:citekey order="6">Scipy-brent</bcf:citekey>
+    <bcf:citekey order="7">Numpy</bcf:citekey>
+    <bcf:citekey order="8">NLP</bcf:citekey>
+    <bcf:citekey order="9">SQP</bcf:citekey>
+    <bcf:citekey order="10">Scipy</bcf:citekey>
+    <bcf:citekey order="11">matlab</bcf:citekey>
+    <bcf:citekey order="12">Feng8388</bcf:citekey>
+    <bcf:citekey order="13">Numpy</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

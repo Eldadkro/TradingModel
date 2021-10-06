@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2021.9.22)  23 SEP 2021 02:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2021.9.22)  6 OCT 2021 03:00
 entering extended mode
 **./trading_paper.tex
 (trading_paper.tex
@@ -693,189 +693,217 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
  [1
 
-{C:/Users/eldad/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+{C:/Users/eldad/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2]
 
-LaTeX Warning: Command \textdollar invalid in math mode on input line 56.
-
-
-LaTeX Warning: Command \textdollar invalid in math mode on input line 56.
+LaTeX Warning: Command \textdollar invalid in math mode on input line 76.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--60
-
- []
-
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 83--86
-
- []
+LaTeX Warning: Command \textdollar invalid in math mode on input line 76.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--86
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 108--113
+Underfull \hbox (badness 10000) in paragraph at lines 74--85
 
  []
 
 [3]
-<plots//single1.png, id=96, 383.4325pt x 279.0425pt>
+Underfull \hbox (badness 10000) in paragraph at lines 102--105
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--105
+
+ []
+
+[4]
+<plots//single1.png, id=113, 402.50375pt x 279.0425pt>
 File: plots//single1.png Graphic file (type png)
 <use plots//single1.png>
-Package pdftex.def Info: plots//single1.png  used on input line 119.
-(pdftex.def)             Requested size: 163.00949pt x 118.63193pt.
-<plots//single2.png, id=98, 396.48125pt x 279.0425pt>
+Package pdftex.def Info: plots//single1.png  used on input line 157.
+(pdftex.def)             Requested size: 163.00949pt x 113.00732pt.
+<plots//single2.png, id=115, 390.45876pt x 279.0425pt>
 File: plots//single2.png Graphic file (type png)
 <use plots//single2.png>
-Package pdftex.def Info: plots//single2.png  used on input line 123.
-(pdftex.def)             Requested size: 163.00949pt x 114.7275pt.
-
-Overfull \hbox (19.468pt too wide) in paragraph at lines 118--126
-[]$[]$ $[]$ 
- []
-
-[4 <./plots//single1.png> <./plots//single2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 134--136
-
- []
-
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 166--170
-
- []
-
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 215--221
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 222--226
-
- []
-
-[7]
-<plots//multi1.png, id=146, 408.52625pt x 279.0425pt>
-File: plots//multi1.png Graphic file (type png)
-<use plots//multi1.png>
-Package pdftex.def Info: plots//multi1.png  used on input line 231.
-(pdftex.def)             Requested size: 163.00949pt x 111.34251pt.
-<plots//multi2.png, id=147, 396.48125pt x 279.0425pt>
-File: plots//multi2.png Graphic file (type png)
-<use plots//multi2.png>
-Package pdftex.def Info: plots//multi2.png  used on input line 234.
-(pdftex.def)             Requested size: 163.00949pt x 114.7275pt.
-<plots//multi3.png, id=148, 402.50375pt x 279.0425pt>
-File: plots//multi3.png Graphic file (type png)
-<use plots//multi3.png>
-Package pdftex.def Info: plots//multi3.png  used on input line 237.
-(pdftex.def)             Requested size: 163.00949pt x 113.00732pt.
-<plots//multi4.png, id=149, 390.45876pt x 279.0425pt>
-File: plots//multi4.png Graphic file (type png)
-<use plots//multi4.png>
-Package pdftex.def Info: plots//multi4.png  used on input line 240.
+Package pdftex.def Info: plots//single2.png  used on input line 160.
 (pdftex.def)             Requested size: 163.00949pt x 116.49449pt.
+<plots//single3.png, id=116, 396.48125pt x 279.0425pt>
+File: plots//single3.png Graphic file (type png)
+<use plots//single3.png>
+Package pdftex.def Info: plots//single3.png  used on input line 163.
+(pdftex.def)             Requested size: 163.00949pt x 114.7275pt.
+<plots//single4.png, id=117, 396.48125pt x 279.0425pt>
+File: plots//single4.png Graphic file (type png)
+<use plots//single4.png>
+Package pdftex.def Info: plots//single4.png  used on input line 166.
+(pdftex.def)             Requested size: 163.00949pt x 114.7275pt.
 
-Overfull \hbox (19.468pt too wide) in paragraph at lines 230--242
+Overfull \hbox (19.468pt too wide) in paragraph at lines 156--168
 []$[]$ $[]$
  []
 
 
-Overfull \hbox (19.468pt too wide) in paragraph at lines 230--242
-[]$ $[]$ 
- []
-
-<plots//multi2-1.png, id=150, 402.50375pt x 279.0425pt>
-File: plots//multi2-1.png Graphic file (type png)
-<use plots//multi2-1.png>
-Package pdftex.def Info: plots//multi2-1.png  used on input line 248.
-(pdftex.def)             Requested size: 163.00949pt x 113.00732pt.
-<plots//multi2-2.png, id=151, 396.48125pt x 279.0425pt>
-File: plots//multi2-2.png Graphic file (type png)
-<use plots//multi2-2.png>
-Package pdftex.def Info: plots//multi2-2.png  used on input line 251.
-(pdftex.def)             Requested size: 163.00949pt x 114.7275pt.
-<plots//multi2-3.png, id=152, 408.52625pt x 279.0425pt>
-File: plots//multi2-3.png Graphic file (type png)
-<use plots//multi2-3.png>
-Package pdftex.def Info: plots//multi2-3.png  used on input line 254.
-(pdftex.def)             Requested size: 163.00949pt x 111.34251pt.
-<plots//multi2-4.png, id=153, 396.48125pt x 279.0425pt>
-File: plots//multi2-4.png Graphic file (type png)
-<use plots//multi2-4.png>
-Package pdftex.def Info: plots//multi2-4.png  used on input line 257.
-(pdftex.def)             Requested size: 163.00949pt x 114.7275pt.
-
-Overfull \hbox (19.468pt too wide) in paragraph at lines 247--259
-[]$[]$ $[]$
- []
-
-
-Overfull \hbox (19.468pt too wide) in paragraph at lines 247--259
+Overfull \hbox (19.468pt too wide) in paragraph at lines 156--168
 []$ $[]$ 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[8 <./plots//multi1.png> <./plots//multi2.png> <./plots//multi3.png> <./plots//
-multi4.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 265--266
+[5]
+Overfull \hbox (5.05005pt too wide) in paragraph at lines 175--184
+ [][] 
+ []
+
+[6 <./plots//single1.png> <./plots//single2.png> <./plots//single3.png> <./plot
+s//single4.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 191--193
 
  []
 
-<plots//example1.png, id=165, 393.47pt x 279.0425pt>
-File: plots//example1.png Graphic file (type png)
-<use plots//example1.png>
-Package pdftex.def Info: plots//example1.png  used on input line 297.
-(pdftex.def)             Requested size: 163.00949pt x 115.60036pt.
-<plots//example2.png, id=166, 387.4475pt x 279.0425pt>
-File: plots//example2.png Graphic file (type png)
-<use plots//example2.png>
-Package pdftex.def Info: plots//example2.png  used on input line 300.
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 224--227
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--263
+
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 272--278
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 279--283
+
+ []
+
+[9] [10]
+<plots//multi1.png, id=195, 402.50375pt x 279.0425pt>
+File: plots//multi1.png Graphic file (type png)
+<use plots//multi1.png>
+Package pdftex.def Info: plots//multi1.png  used on input line 350.
+(pdftex.def)             Requested size: 163.00949pt x 113.00732pt.
+<plots//multi2.png, id=196, 402.50375pt x 279.0425pt>
+File: plots//multi2.png Graphic file (type png)
+<use plots//multi2.png>
+Package pdftex.def Info: plots//multi2.png  used on input line 353.
+(pdftex.def)             Requested size: 163.00949pt x 113.00732pt.
+<plots//multi3.png, id=197, 402.50375pt x 279.0425pt>
+File: plots//multi3.png Graphic file (type png)
+<use plots//multi3.png>
+Package pdftex.def Info: plots//multi3.png  used on input line 356.
+(pdftex.def)             Requested size: 163.00949pt x 113.00732pt.
+<plots//multi4.png, id=198, 387.4475pt x 279.0425pt>
+File: plots//multi4.png Graphic file (type png)
+<use plots//multi4.png>
+Package pdftex.def Info: plots//multi4.png  used on input line 359.
 (pdftex.def)             Requested size: 163.00949pt x 117.40141pt.
 
-Overfull \hbox (19.468pt too wide) in paragraph at lines 296--302
+Overfull \hbox (19.468pt too wide) in paragraph at lines 349--361
+[]$[]$ $[]$
+ []
+
+
+Overfull \hbox (19.468pt too wide) in paragraph at lines 349--361
+[]$ $[]$ 
+ []
+
+[11 <./plots//multi1.png> <./plots//multi2.png> <./plots//multi3.png> <./plots/
+/multi4.png>]
+<plots//multi2-1.png, id=216, 377.41pt x 279.0425pt>
+File: plots//multi2-1.png Graphic file (type png)
+<use plots//multi2-1.png>
+Package pdftex.def Info: plots//multi2-1.png  used on input line 397.
+(pdftex.def)             Requested size: 163.00949pt x 120.52242pt.
+<plots//multi2-2.png, id=217, 387.4475pt x 279.0425pt>
+File: plots//multi2-2.png Graphic file (type png)
+<use plots//multi2-2.png>
+Package pdftex.def Info: plots//multi2-2.png  used on input line 400.
+(pdftex.def)             Requested size: 163.00949pt x 117.40141pt.
+<plots//multi2-3.png, id=218, 387.4475pt x 279.0425pt>
+File: plots//multi2-3.png Graphic file (type png)
+<use plots//multi2-3.png>
+Package pdftex.def Info: plots//multi2-3.png  used on input line 403.
+(pdftex.def)             Requested size: 163.00949pt x 117.40141pt.
+<plots//multi2-4.png, id=219, 387.4475pt x 279.0425pt>
+File: plots//multi2-4.png Graphic file (type png)
+<use plots//multi2-4.png>
+Package pdftex.def Info: plots//multi2-4.png  used on input line 406.
+(pdftex.def)             Requested size: 163.00949pt x 117.40141pt.
+
+Overfull \hbox (19.468pt too wide) in paragraph at lines 396--408
+[]$[]$ $[]$
+ []
+
+
+Overfull \hbox (19.468pt too wide) in paragraph at lines 396--408
+[]$ $[]$ 
+ []
+
+[12 <./plots//multi2-1.png> <./plots//multi2-2.png> <./plots//multi2-3.png> <./
+plots//multi2-4.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 434--435
+
+ []
+
+<plots//example1.png, id=240, 387.4475pt x 279.0425pt>
+File: plots//example1.png Graphic file (type png)
+<use plots//example1.png>
+Package pdftex.def Info: plots//example1.png  used on input line 466.
+(pdftex.def)             Requested size: 163.00949pt x 117.40141pt.
+<plots//example2.png, id=241, 387.4475pt x 279.0425pt>
+File: plots//example2.png Graphic file (type png)
+<use plots//example2.png>
+Package pdftex.def Info: plots//example2.png  used on input line 469.
+(pdftex.def)             Requested size: 163.00949pt x 117.40141pt.
+
+Overfull \hbox (19.468pt too wide) in paragraph at lines 465--471
 []$[]$ $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 280--305
+Underfull \hbox (badness 10000) in paragraph at lines 449--475
 
  []
 
-[9 <./plots//multi2-1.png> <./plots//multi2-2.png> <./plots//multi2-3.png> <./p
-lots//multi2-4.png>] [10 <./plots//example1.png> <./plots//example2.png>]
-Overfull \hbox (1.42912pt too wide) in paragraph at lines 313--313
-[]\OT1/cmr/m/n/10 SciPy de-vel-op-ers. \OT1/cmr/m/it/10 Numpy scin-tific pro-gr
-am-ing pack-age\OT1/cmr/m/n/10 . \OT1/cmr/m/sc/10 url\OT1/cmr/m/n/10 : [][]$htt
-ps : / / numpy .
- []
-
-
-Overfull \hbox (10.13058pt too wide) in paragraph at lines 313--313
+[13 <./plots//example1.png> <./plots//example2.png>] [14]
+Overfull \hbox (15.1306pt too wide) in paragraph at lines 526--526
 \OT1/cmr/m/n/10 109.22 (2012), pp. 8388{8393. \OT1/cmr/m/sc/10 issn\OT1/cmr/m/n
 /10 : 0027-8424. \OT1/cmr/m/sc/10 doi\OT1/cmr/m/n/10 : [][]$10 . 1073 / pnas . 
 1205013109$[][].
  []
 
-[11] (trading_paper.aux)
+
+Overfull \hbox (4.75078pt too wide) in paragraph at lines 526--526
+\OT1/cmr/m/n/10 www . mathworks . com / help / optim / ug / constrained -[] non
+linear -[] optimization -[]
+ []
+
+
+Overfull \hbox (34.27087pt too wide) in paragraph at lines 526--526
+[]\OT1/cmr/m/n/10 Mohnish Pabrai. \OT1/cmr/m/it/10 The Dhandho In-vestor\OT1/cm
+r/m/n/10 . Wi-ley, Apr. 6, 2007. \OT1/cmr/m/sc/10 isbn\OT1/cmr/m/n/10 : 9780470
+043899.
+ []
+
+[15] (trading_paper.aux)
 Package rerunfilecheck Info: File `trading_paper.out' has not changed.
-(rerunfilecheck)             Checksum: D4D55C3240F3FC7DC9C4900701F67335;1445.
+(rerunfilecheck)             Checksum: F1E6945AE8B68B9A4E8C06B2239252D6;1517.
 Package logreq Info: Writing requests to 'trading_paper.run.xml'.
 \openout1 = `trading_paper.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18705 strings out of 478936
- 320218 string characters out of 2852771
- 1058505 words of memory out of 3000000
- 36302 multiletter control sequences out of 15000+600000
+ 18761 strings out of 478936
+ 321225 string characters out of 2852771
+ 1059304 words of memory out of 3000000
+ 36335 multiletter control sequences out of 15000+600000
  412275 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,20n,77p,976b,1735s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 67i,22n,77p,1292b,1735s stack positions out of 5000i,500n,10000p,200000b,80000s
 <C:/Users/eldad/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmbx10.pfb><C:/Users/eldad/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmbx12.pfb><C:/Users/eldad/AppData/Local/Programs/MiKTeX/fonts/type1/p
@@ -894,9 +922,9 @@ c/amsfonts/cm/cmr7.pfb><C:/Users/eldad/AppData/Local/Programs/MiKTeX/fonts/type
 onts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/eldad/AppData/Local/Programs/
 MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/eldad/AppData/Local/
 Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on trading_paper.pdf (11 pages, 392340 bytes).
+Output written on trading_paper.pdf (15 pages, 435137 bytes).
 PDF statistics:
- 283 PDF objects out of 1000 (max. 8388607)
- 47 named destinations out of 1000 (max. 500000)
- 141 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 372 PDF objects out of 1000 (max. 8388607)
+ 70 named destinations out of 1000 (max. 500000)
+ 151 words of extra memory for PDF output out of 10000 (max. 10000000)
 
